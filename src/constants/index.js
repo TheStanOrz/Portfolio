@@ -116,61 +116,6 @@ const technologies = [
 
 const projects = [
   {
-    name: "ToDoList",
-    description:
-      "Here is my attempt to develop with React, utilizing json-server to simulate API integration, and uuid to generate unique key values. (json-server needs to be running)",
-    tags: [
-      {
-        name: "React",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "JSON-Server",
-        color: "green-text-gradient",
-      },
-      {
-        name: "uuid",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: todolist,
-    source_code_link: "https://wjw-todolist-with-react.netlify.app/",
-  },
-  {
-    name: "Animation",
-    description:
-      "A simple animation project. Capturing user interactions by listening to mouse down, mouse up, and mouse move events using JavaScript.",
-    tags: [
-      {
-        name: "JavaScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Animation",
-        color: "green-text-gradient",
-      },
-    ],
-    image: animation,
-    source_code_link: "https://wjw-animation.netlify.app/",
-  },
-  {
-    name: "CatSearch",
-    description:
-      "A simple project for practicing API integration, fetching various adorable cat images through the Cat API, bringing forth a highly entertaining feast of cats.",
-    tags: [
-      {
-        name: "JavaScript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "API",
-        color: "green-text-gradient",
-      },
-    ],
-    image: catsearch,
-    source_code_link: "https://wjw-cat-search.netlify.app/",
-  },
-  {
     name: "ChatRoom",
     description:
       "A web chatroom that integrates with the Google Firebase database using JavaScript. It utilizes Authentication for account verification and Cloud Firestore to store chatroom data.",
@@ -227,6 +172,40 @@ const projects = [
       },
     ],
     image: portfolio,
+  },
+  {
+    name: "Animation",
+    description:
+      "A simple animation project. Capturing user interactions by listening to mouse down, mouse up, and mouse move events using JavaScript.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Animation",
+        color: "green-text-gradient",
+      },
+    ],
+    image: animation,
+    source_code_link: "https://wjw-animation.netlify.app/",
+  },
+  {
+    name: "CatSearch",
+    description:
+      "A simple project for practicing API integration, fetching various adorable cat images through the Cat API, bringing forth a highly entertaining feast of cats.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "API",
+        color: "green-text-gradient",
+      },
+    ],
+    image: catsearch,
+    source_code_link: "https://wjw-cat-search.netlify.app/",
   },
 ];
 
