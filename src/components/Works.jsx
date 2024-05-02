@@ -64,8 +64,7 @@ const Works = () => {
         >
           Following projects showcases my skills and experience through
           real-world examples of my work. Each project is briefly described with
-          links to code repositories & live demos in it. It reflects my
-          ability to solve complex problems, work with different technologies.
+          links to code repositories & live demos in it.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
