@@ -154,25 +154,46 @@ const projects = [
     source_code_link: "https://github.com/TheStanOrz/MyProject",
   },
   {
-    name: "3D-Portfolio",
+    name: "ToDoList",
     description:
-      "This website is developed using React and Three.js, incorporating tailwindcss and emailjs. It offers a unique user experience, allowing you to explore 3D space while contacting me through emailjs.",
+      "Here is a simple project developed with React, utilizing json-server to simulate API integration. And uuid used to generate unique key values. (json-server needs to be running)",
     tags: [
       {
         name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "Three.js",
+        name: "JSON-Server",
         color: "green-text-gradient",
       },
       {
-        name: "Tailwind CSS",
+        name: "uuid",
         color: "pink-text-gradient",
       },
     ],
-    image: portfolio,
+    image: todolist,
+    source_code_link: "https://wjw-todolist-with-react.netlify.app/",
   },
+  // {
+  //   name: "3D-Portfolio",
+  //   description:
+  //     "This website is developed using React and Three.js, incorporating tailwindcss and emailjs. It offers a unique user experience, allowing you to explore 3D space while contacting me through emailjs.",
+  //   tags: [
+  //     {
+  //       name: "React",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "Three.js",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "Tailwind CSS",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: portfolio,
+  // },
   {
     name: "Animation",
     description:

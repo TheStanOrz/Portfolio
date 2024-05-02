@@ -41,7 +41,14 @@ const About = () => {
         variants={fadeIn("","",0.1,1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-      Passionate about crafting visually captivating websites and exploring the front-end technology domain,
+      This website is developed using React and Three.js, incorporating tailwindcss and emailjs.
+       It offers a unique user experience, allowing you to explore 3D space while contacting me through emailjs.
+      </motion.p>
+      <motion.p
+        variants={fadeIn("","",0.1,1)}
+        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+      >
+      I'm passionate about crafting visually captivating websites and exploring the front-end technology domain,
       I am deeply enthusiastic. I have some experience in React and Three.js, and a basic understanding of Node.js.
       My focus is on creating immersive and engaging digital experiences.
       </motion.p>
