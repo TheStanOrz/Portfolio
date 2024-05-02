@@ -13,8 +13,8 @@ const Kirbys = ({ isMobile }) => {
       <directionalLight intensity={0.7}/>
       <primitive
         object={kirby.scene}
-        scale={isMobile ? 4 : 6} 
-        position={isMobile ? [0, 0, -2] : [0, -2, -1]} 
+        scale={isMobile ? 3 : 6} 
+        position={isMobile ? [0, -5, -1] : [0, -2, -3]} 
       />
   </mesh>
   );
