@@ -52,7 +52,7 @@ const About = () => {
       I am deeply enthusiastic. I have some experience in React and Three.js, and a basic understanding of Node.js.
       My focus is on creating immersive and engaging digital experiences.
       </motion.p>
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center' >
         {services.map((service,index)=>(
           <ServiceCard key={service.title} index={index}{...service}/>
         ))}

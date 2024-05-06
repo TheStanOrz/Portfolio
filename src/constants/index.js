@@ -52,10 +52,10 @@ const services = [
     title: "Database",
     icon: database,
   },
-  {
-    title: "IoT",
-    icon: iot,
-  },
+  // {
+  //   title: "IoT",
+  //   icon: iot,
+  // },
 ];
 
 const technologies = [
